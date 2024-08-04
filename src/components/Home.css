@@ -1,0 +1,90 @@
+/* Home Section */
+.home-section {
+  height: 100vh;
+  background: url('../components/Images/homebg.jpg');/*no-repeat center center/cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.text-center h1, .text-center p, .text-center a {
+  color: black; /* Ensure text color is black */
+  animation: textEnter 2s ease-in-out;
+}
+
+
+/* Text Animation */
+.text-center {
+  animation: textEnter 2s ease-in-out;
+}
+
+@keyframes textEnter {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the buttons */
+  margin-top: 30px; /* Adjust as needed */
+}
+/* Button Animation */
+.btn-primary {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Profile Picture */
+.profilepic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+  animation: borderAnimation 2s infinite;
+  margin-bottom: 50px;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: white;
+  }
+  50% {
+    border-color: #007bff; /* Change border color to primary color */
+  }
+  100% {
+    border-color: white;
+  }
+}
+
+/* Additional Animations */
+.animated {
+  opacity: 0;
+}
+
+.fadeIn {
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

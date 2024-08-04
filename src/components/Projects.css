@@ -1,0 +1,166 @@
+#projects {
+  background-color:whitesmoke;
+  width: 100%;
+  /* background: url('../components/Images/homebg.jpg'); */
+}
+
+.projects-section h2 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+
+}
+
+/* Projects.css */
+
+.btn-custom {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px; 
+  width: 100%;
+  display: flex;
+  gap: 3px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Add subtle shadow to card body on hover */
+  .card-body {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  /* Increase font size of card title on hover */
+  .card-title {
+    font-size: 1.6rem;
+  }
+}
+
+.card-img-top {
+  width:100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    margin-bottom: 20px;
+
+  }
+}
+
+
+
+
+
+@media (min-width:100px) and (max-width: 10001.98px) {
+.card{
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+.btn-custom {
+  background-color: #5a9; /* Custom button color */
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #487; /* Darker shade for hover effect */
+}
+
+.card .btn {
+  background-color: #5a9; /* Custom button color */
+  color: white;
+  border: none;
+  margin-top: 10px; /* Add some margin to the top for better spacing */
+}
+
+.card .btn:hover {
+  background-color: #487; /* Darker shade for hover effect */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation-buttons .btn {
+  background-color: #5a9; /* Custom button color */
+  color: white;
+  border: none;
+  margin: 5px;
+}
+
+.navigation-buttons .btn:hover {
+  background-color: #487; /* Darker shade for hover effect */
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-6, .col-lg-4 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}

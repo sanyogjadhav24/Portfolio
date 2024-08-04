@@ -1,0 +1,35 @@
+/* Add this custom CSS in src/components/Navbar.css */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand i {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link i {
+    margin-right: 5px;
+  }
+  
+  .nav-link:hover {
+    color: #ffdd57 !important;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+      display: block;
+      text-align: center;
+    }
+  }
+  
