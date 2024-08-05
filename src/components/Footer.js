@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="row">
           <div className="col-md-4">
             <h5>Contact</h5>
-       <p>Email:jadhavsanyog.400@gmail.com</p>
+       <p>Email: jadhavsanyog.400@gmail.com</p>
           <p>Phone:+91 8600596593</p>
           </div>
           <div className="col-md-4">
@@ -21,11 +21,11 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
    <h5>Follow Me</h5>
-            <ul className="list-unstyled social-icons">
+            <center><ul className="list-unstyled social-icons">
               <li><a href="https://github.com/sanyogjadhav24" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
               <li><a href="https://linkedin.com/in/sanyog-jadhav-295154258" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
               <li><a href="https://instagram.com/sanyog_jadhav_2424" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
-            </ul>
+            </ul></center>
           </div>
         </div>
         <div className="text-center mt-4">
