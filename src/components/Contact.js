@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-5 contact-section">
       <div className="container">
-        <h2 className="text-center">Contact</h2>
+        <h2 className="text-center">Contact Me</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name</label>
