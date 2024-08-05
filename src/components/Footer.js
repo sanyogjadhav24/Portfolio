@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer className="footer py-4">
       <div className="container">
-        <div className="row">
+    <div className="row">
           <div className="col-md-4">
             <h5>Contact</h5>
-       
+       <p>Email:jadhavsanyog.400@gmail.com</p>
           <p>Phone:+91 8600596593</p>
           </div>
           <div className="col-md-4">

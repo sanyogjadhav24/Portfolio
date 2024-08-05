@@ -6,11 +6,14 @@
   .footer h5 {
     font-weight: bold;
     margin-bottom: 1rem;
+    text-align: center;
   }
   
   .footer a {
     color: #6c757d;
     text-decoration: none;
+    text-align: center;
+
   }
   
   .footer a:hover {
@@ -20,6 +23,7 @@
   .footer p, .footer ul {
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   
   .footer ul {
